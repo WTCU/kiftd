@@ -1,6 +1,4 @@
-/**
- * home.js kiftd主页面操作定义 by 青阳龙野 该文件为home.html的操作定义文件，包含了kiftd页面上的主要操作实现。
- */
+
 
 // 所用val名称列表，注意不要冲突，其中一些参数能够设定界面行为。
 var locationpath = "root";// 记录当前文件路径
@@ -750,7 +748,7 @@ function getNewVerCode() {
 			"homeController/getNewVerCode.do?s=" + (new Date()).getTime());
 }
 
-// 注销操作
+// 退出登录操作
 function dologout() {
 	$('#logoutModal').modal('hide');
 	$.ajax({
@@ -808,15 +806,15 @@ function showAccountView(folderView) {
 	$("#tb,#tb2").html("");
 	account = folderView.account;
 	if (folderView.account != null) {
-		// 说明已经登录，显示注销按钮
+		// 说明已经登录，显示退出登录按钮
 		$("#tb")
 				.append(
-						"<button class='btn btn-link rightbtn hidden-xs' data-toggle='modal' data-target='#logoutModal'>注销 ["
+						"<button class='btn btn-link rightbtn hidden-xs' data-toggle='modal' data-target='#logoutModal'>退出登录 ["
 								+ folderView.account
 								+ "] <span class='glyphicon glyphicon-off' aria-hidden='true'></span></button>");
 		$("#tb2")
 				.append(
-						"<button class='btn btn-link' data-toggle='modal' data-target='#logoutModal'>注销 ["
+						"<button class='btn btn-link' data-toggle='modal' data-target='#logoutModal'>退出登录 ["
 								+ folderView.account
 								+ "] <span class='glyphicon glyphicon-off' aria-hidden='true'></span></button>");
 		if (folderView.allowChangePassword == 'true') {

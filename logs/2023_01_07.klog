@@ -1,0 +1,304 @@
+
+
+TIME:
+2023年01月07日 07:41:31
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT/开源协议]
+>NAME [升级须知.pdf]
+
+TIME:
+2023年01月07日 07:42:15
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [kiftd说明文档.pdf]
+
+TIME:
+2023年01月07日 10:25:22
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [cloudreve.db]
+
+TIME:
+2023年01月07日 10:25:53
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [Anonymous]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [cloudreve.db]
+
+TIME:
+2023年01月07日 10:26:28
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [cloudreve.db]
+
+TIME:
+2023年01月07日 16:15:31
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Change Password]
+>NEW PASSWORD [123456]
+
+TIME:
+2023年01月07日 16:24:02
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [安史之乱.pdf]
+
+TIME:
+2023年01月07日 16:24:14
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [第二次世界大战.pdf]
+
+TIME:
+2023年01月07日 16:24:26
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [第一次鸦片战争.pdf]
+
+TIME:
+2023年01月07日 16:24:29
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [谷歌退出中国大陆事件.pdf]
+
+TIME:
+2023年01月07日 16:24:37
+TYPE:
+Exception
+CONTENT:
+org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.impl.IOFileUploadException: Processing of multipart/form-data request failed. java.io.EOFException
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:124)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:115)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:122)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1205)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+......
+
+TIME:
+2023年01月07日 16:25:44
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [安史之乱.pdf]
+
+TIME:
+2023年01月07日 16:25:57
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [第二次世界大战.pdf]
+
+TIME:
+2023年01月07日 16:26:11
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [第一次鸦片战争.pdf]
+
+TIME:
+2023年01月07日 16:26:17
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [谷歌退出中国大陆事件.pdf]
+
+TIME:
+2023年01月07日 16:26:41
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [谷歌退出中国大陆事件.pdf]
+
+TIME:
+2023年01月07日 16:26:46
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [美国.pdf]
+
+TIME:
+2023年01月07日 16:26:58
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [南京大屠杀.pdf]
+
+TIME:
+2023年01月07日 16:27:38
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [清朝.pdf]
+
+TIME:
+2023年01月07日 16:27:43
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [安史之乱.pdf]
+
+TIME:
+2023年01月07日 16:27:48
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [儒家 .pdf]
+
+TIME:
+2023年01月07日 16:27:56
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [苏联.pdf]
+
+TIME:
+2023年01月07日 16:28:11
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [唐朝.pdf]
+
+TIME:
+2023年01月07日 16:28:16
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [戊戌变法.pdf]
+
+TIME:
+2023年01月07日 16:28:33
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [中国.pdf]
+
+TIME:
+2023年01月07日 16:29:01
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [谷歌退出中国大陆事件.pdf]
+
+TIME:
+2023年01月07日 16:29:13
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [中国.pdf]

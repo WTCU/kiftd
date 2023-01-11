@@ -1,7 +1,4 @@
 <!doctype html>
-<!-- 青阳网络文件传输系统 kiftd v1.1.0-RELEASE -->
-<!-- 欢迎访问主界面 -->
-<!-- by 青阳龙野（kohgylw@163.com） -->
 <html>
 <head>
 <meta charset="UTF-8">
@@ -9,7 +6,7 @@
 <meta name="renderer" content="webkit">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>WTCU</title>
+<title>庞玺桐网盘</title>
 <!-- Bootstrap基本框架 -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- 全局样式 -->
@@ -25,10 +22,63 @@
     <link rel="stylesheet" type="text/css" href="./css.css">
     <meta name="applicable-device" content="pc,mobile">
     <script type="text/javascript" src="./JavaScript.js"></script>
+        <!--span颜色注释-->
+    <style>
+      span {
+            color: black;
+      }
+      span2 {
+            color: #EEFCA9;
+      }
+      span3 {
+             color: red;
+      }
+      span4 {
+             color: #EDEDED;
+      }
+      span5 {
+             color: #D6B1A6;
+      }
+      span6 {
+             color: #E25DA9;
+      }
+      span7 {
+             color: #848484;
+      }
+      span8 {
+             color: #059CE5;
+      }
+      span9 {
+             color: #494949;
+             text-decoration: underline
+      }
+      span10 {
+             color: #334555;
+      }
+.bother{
+border: 0px solid #000;/*边框*/
+box-shadow:0px 0px 10px 2px #E8E8E8 ;/*对外阴影*/
+/*  box-shadow:0px 0px 4px 0px #00EC72 inset;  *//*对内阴影*/
+border-top-left-radius: 10px;/*左上角圆角*/
+border-top-right-radius:10px ;/*右上角圆角*/
+border-bottom-left-radius:10px ;/*左下角圆角*/
+border-bottom-right-radius:10px ;/*右下角圆角*/
+margin:center
+}
+    </style>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?4882febf72013f5fbb90c577bfa65f40";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 </head>
 
-<body>
+<body style="background-color:#F7F8FA">
 	<!-- 显示主体 -->
 	<div class="container">
 		<!-- 页面标题栏 -->
@@ -36,7 +86,7 @@
 			<div class="col-md-12">
 				<div class="titlebox">
 					<span class="titletext"> <!-- 主标题，如需修改请替换后方标签内的文字 --> <em>
-							二次开发文件传输系统 <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
+							庞玺桐网盘 <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
 								class="graytext">KIFT</span>
 						</small>
 					</em>
@@ -50,7 +100,7 @@
 			</div>
 		</div>
 		<!-- 信息栏、操作栏与文件列表 -->
-		<center><h><big><big><big><big>WTCT私有云</big></big></big></big></h></center>
+		<center><h><big><big><big><big>庞玺桐网盘</big></big></big></big></h></center>
 		<div class="row">
 			<div class="col-md-12">
 				<p class="subtitle visible-xs-block">
@@ -60,8 +110,9 @@
 					</button>
 				</p>
 				<p class="subtitle">
-					文件同步时间：<span id="publishTime"></span>&nbsp;&nbsp;&nbsp;&nbsp;OS：<span id="serverOS"><span class="graytext">加载中...</span></span>
-				</p>
+					文件同步时间：<span id="publishTime"></span>&nbsp;&nbsp;&nbsp;
+					OS：<span id="serverOS"><span class="graytext">加载中...</span></span>
+				</p><br>
 				<div id="filetable" class="panel panel-default" unselectable="on"
 					onselectstart="return false;" style="-moz-user-select: none;">
 					<!-- 文件列表头部，也就是操作栏 -->
@@ -149,6 +200,7 @@
 							</tr>
 						</thead>
 						<tbody id="foldertable"></tbody>
+						<body style="background:"bg_home.jpeg" no-repeat top left;background- size:cover;background-attachment: fixed;background-size: 100%;">
 					</table>
 				</div>
 			</div>
@@ -201,7 +253,7 @@
 		</div>
 	</div>
 	<!-- end 登录 -->
-	<!-- 注销提示框 -->
+	<!-- 退出登录提示框 -->
 	<div class="modal fade bs-example-modal-sm" id="logoutModal"
 		tabindex="-1" role="dialog" aria-labelledby="logoutModelTitle">
 		<div class="modal-dialog modal-sm" role="document">
@@ -212,20 +264,20 @@
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<h4 class="modal-title" id="logoutModelTitle">
-						<span class="glyphicon glyphicon-comment"></span> 注销
+						<span class="glyphicon glyphicon-comment"></span> 退出登录
 					</h4>
 				</div>
 				<div class="modal-body">
-					<h5>提示：您确认要注销么？</h5>
+					<h5>提示：您确认要退出登录吗？</h5>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-					<button type="button" class="btn btn-danger" onclick="dologout()">注销</button>
+					<button type="button" class="btn btn-danger" onclick="dologout()">退出登录</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end 注销 -->
+	<!-- end 退出登录 -->
 	<!-- 新建文件夹框 -->
 	<div class="modal fade" id="newFolderModal" tabindex="-1" role="dialog"
 		aria-labelledby="newFolderlMolderTitle">
@@ -869,40 +921,6 @@
 			class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
 	</div>
 	<!-- end 加载余下部分的提示 -->
-	
-	   <!--span颜色注释-->
-    <style>
-      span {
-            color: black;
-      }
-      span2 {
-            color: #EEFCA9;
-      }
-      span3 {
-             color: red;
-      }
-      span4 {
-             color: #EDEDED;
-      }
-      span5 {
-             color: #D6B1A6;
-      }
-      span6 {
-             color: #E25DA9;
-      }
-      span7 {
-             color: #848484;
-      }
-      span8 {
-             color: #059CE5;
-      }
-      span9 {
-             text-decoration: underline
-      }
-      span10 {
-             color: #334555;
-      }
-    </style>
 	<br><br><br><br><br><br><br><br>
 <div class="bottom">
   <big>
@@ -920,6 +938,8 @@
   </p>
   </big>
 </div>
+              
+              
 </body>
 <!-- jquery基本框架 -->
 <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>

@@ -1,0 +1,329 @@
+
+
+TIME:
+2023年01月06日 13:01:55
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [长春市第八中学2年级学生和家长批量注册2023-01-05.xls]
+
+TIME:
+2023年01月06日 13:02:43
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [长春市第八中学2年级学生和家长批量注册2023-01-05.xls]
+
+TIME:
+2023年01月06日 13:05:10
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 13:05:10
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 13:05:10
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 13:05:10
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 13:05:10
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 13:05:18
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 13:34:31
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Change Password]
+>NEW PASSWORD [Pxt20060604]
+
+TIME:
+2023年01月06日 13:38:19
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 13:38:26
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 17:55:16
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Change Password]
+>NEW PASSWORD [000000]
+
+TIME:
+2023年01月06日 18:02:12
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [kiftd说明文档.pdf]
+
+TIME:
+2023年01月06日 18:02:58
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Create new folder]
+>PATH [ROOT/]
+>NAME [开源协议],CONSTRAINT [0]
+
+TIME:
+2023年01月06日 18:03:03
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT/开源协议]
+>NAME [升级须知.pdf]
+
+TIME:
+2023年01月06日 18:03:08
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT/开源协议]
+>NAME [使用许可]
+
+TIME:
+2023年01月06日 18:03:11
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT/开源协议]
+>NAME [README.md]
+
+TIME:
+2023年01月06日 18:04:05
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 18:04:06
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 18:04:06
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 18:04:06
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 18:04:06
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Download file]
+>PATH [ROOT]
+>NAME [kiftd说明文档.pdf]
+
+TIME:
+2023年01月06日 18:04:15
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 18:06:17
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 18:06:18
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._kiftd说明文档.pdf]
+
+TIME:
+2023年01月06日 18:06:18
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._kiftd说明文档.pdf]
+
+TIME:
+2023年01月06日 18:06:19
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Upload file]
+>PATH [ROOT]
+>NAME [._kiftd说明文档.pdf]
+
+TIME:
+2023年01月06日 18:14:41
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [.DS_Store]
+
+TIME:
+2023年01月06日 18:14:44
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [._.DS_Store]
+
+TIME:
+2023年01月06日 18:14:49
+TYPE:
+Event
+CONTENT:
+>IP [192.168.31.203]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [._kiftd说明文档.pdf]

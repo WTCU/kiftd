@@ -112,7 +112,7 @@ function sendSignUpInfo(encrypted){
 				$("#accountidbox").addClass("has-error");
 				break;
 			case "mustlogout":
-				showAlert("提示：您已经登入了一个账户，请先注销后再执行本操作");
+				showAlert("提示：您已经登入了一个账户，请先退出登录后再执行本操作");
 				break;
 			case "invalidpwd":
 				showAlert("提示：注册失败，密码格式不正确。密码的长度需为3-32个字符，且仅支持ISO-8859-1中的字符（推荐使用英文字母、英文符号及阿拉伯数字）。");

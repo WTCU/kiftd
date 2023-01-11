@@ -1,0 +1,122 @@
+
+
+TIME:
+2023年01月08日 11:27:53
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [中国.pdf]
+
+TIME:
+2023年01月08日 11:28:32
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [戊戌变法.pdf]
+
+TIME:
+2023年01月08日 11:28:34
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [唐朝.pdf]
+
+TIME:
+2023年01月08日 11:28:38
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [苏联.pdf]
+
+TIME:
+2023年01月08日 11:28:48
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [儒家 .pdf]
+
+TIME:
+2023年01月08日 11:28:51
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [清朝.pdf]
+
+TIME:
+2023年01月08日 11:28:53
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [南京大屠杀.pdf]
+
+TIME:
+2023年01月08日 11:28:55
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [美国.pdf]
+
+TIME:
+2023年01月08日 11:28:57
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [第一次鸦片战争.pdf]
+
+TIME:
+2023年01月08日 11:28:59
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [第二次世界大战.pdf]
+
+TIME:
+2023年01月08日 11:29:02
+TYPE:
+Event
+CONTENT:
+>IP [127.0.0.1]
+>ACCOUNT [admin]
+>OPERATE [Delete file]
+>PATH [ROOT]
+>NAME [安史之乱.pdf]
