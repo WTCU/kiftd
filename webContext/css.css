@@ -46,9 +46,8 @@ margin:center
 /*固定在底部，用<div>执行*/
 .bottom{
 position: absolute;
-height: 50px;
 text-align: center;
 width: 100%;
 position: fixed; /*固定在底部*/
-bottom:10px; /*底部间距*/
+bottom:0px; /*底部间距*/
 )

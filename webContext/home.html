@@ -6,7 +6,7 @@
 <meta name="renderer" content="webkit">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>WTCU论坛</title>
+<title>WTCU</title>
 <!-- Bootstrap基本框架 -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- 全局样式 -->
@@ -65,6 +65,17 @@ border-bottom-left-radius:10px ;/*左下角圆角*/
 border-bottom-right-radius:10px ;/*右下角圆角*/
 margin:center
 }
+.pang{
+box-shadow:0px 2px 10px 4px #E8E8E8 ;/*对外阴影*/
+border-top-left-radius: 20px;/*左上角圆角*/
+border-top-right-radius:20px ;/*右上角圆角*/
+border-bottom-left-radius:20px ;/*左下角圆角*/
+border-bottom-right-radius:20px ;/*右下角圆角*/
+}
+.pang1{
+border-top-left-radius: 20px;/*左上角圆角*/
+border-top-right-radius:20px ;/*右上角圆角*/
+{
     </style>
     <script>
 var _hmt = _hmt || [];
@@ -86,8 +97,8 @@ var _hmt = _hmt || [];
 			<div class="col-md-12">
 				<div class="titlebox">
 					<span class="titletext"> <!-- 主标题，如需修改请替换后方标签内的文字 --> <em>
-							WTCU论坛 <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
-								class="graytext">KIFT</span>
+							WTCU <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
+								class="graytext">0.1.0</span>
 						</small>
 					</em>
 					</span> <span id="tb" class="rightbtn hidden-xs"></span>
@@ -97,10 +108,11 @@ var _hmt = _hmt || [];
 					</button>
 				</div>
 				<hr />
+				<!-- 顶部横线 <hr /> -->
 			</div>
 		</div>
 		<!-- 信息栏、操作栏与文件列表 -->
-		<center><h><big><big><big><big>WTCU论坛</big></big></big></big></h></center>
+		<center><h><big><big><big><big>WTCU</big></big></big></big></h></center>
 		<div class="row">
 			<div class="col-md-12">
 				<p class="subtitle visible-xs-block">
@@ -113,10 +125,12 @@ var _hmt = _hmt || [];
 					文件同步时间：<span id="publishTime"></span>&nbsp;&nbsp;&nbsp;
 					OS：<span id="serverOS"><span class="graytext">加载中...</span></span>
 				</p><br>
-				<div id="filetable" class="panel panel-default" unselectable="on"
-					onselectstart="return false;" style="-moz-user-select: none;">
+					
+					
+					
 					<!-- 文件列表头部，也就是操作栏 -->
-					<div class="panel-heading">
+				<div id="filetable" class="panel panel-default pang" unselectable="on" onselectstart="return false;" style="-moz-user-select: none;">
+					<div class="panel-heading pang1"style="background-color:#F8F8F8">
 						<div class="heading">
 							<div class="navbar-header">
 								<a id="filetableheadera" href="javascript:void(0);"
@@ -920,21 +934,39 @@ var _hmt = _hmt || [];
 		正在加载文件列表：<span id="loadingrate">0%</span>... <span
 			class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
 	</div>
+
+
+<center><br><br><div style="font-size:40px;">WTCU留言</div><br><div style="font-size:20px;">支持Markdown语法、Latex语法、OwO表情语法和纯文本</div><br>
+<!-- CSS -->
+<link href="https://cdn.bootcdn.net/ajax/libs/artalk/2.4.4/Artalk.css" rel="stylesheet">
+<!-- JS -->
+<script src="https://cdn.bootcdn.net/ajax/libs/artalk/2.4.4/Artalk.js"></script>
+<center><div id="Comments"style="width:900px"></div></center>
+<br><br><div style="font-size:16px;">评论服务由庞玺桐的个人iMac上构建的自建Artalk服务器提供</div></center><br><br>
+<script>
+new Artalk({
+  el:        '#Comments',// 绑定元素的 Selector
+  pageKey:   'http://192.168.31.203',// 固定链接 (留空自动获取)
+  pageTitle: '',  // 页面标题 (留空自动获取)
+  server:    'https://3jxkfrdkfhha.ngrok.xiaomiqiu123.top',  // 后端地址
+  site:      '庞玺桐档案馆',             // 你的站点名
+})
+</script>
+
+
 	<!-- end 加载余下部分的提示 -->
 	<br><br><br><br><br><br><br><br>
-<div class="bottom">
+<div class="bottom"style="background-color:#F7F8FA">
   <big>
   <p>
     <div style="display:inline-block;" class="uptime"></div>
-    &nbsp;&nbsp;&nbsp;开发者：WTCU
-    &nbsp;&nbsp;&nbsp;网站版本：1.1.0
+    &nbsp;&nbsp;&nbsp;开发者：WTCU团队
+    &nbsp;&nbsp;&nbsp;网站版本：0.1.0
     <br>
-    
     <a target="_blank" href="https://pangxitong.github.io/open.html"><span9>Copyright</span9></a>
-    &nbsp;©&nbsp;2023&nbsp;WTCU.&nbsp;&nbsp;All rights reserved. 
-    Based on&nbsp;<a target="_blank" href="https://github.com/KOHGYLW/kiftd"><span9>Kiftd</span9>.
-    &nbsp;</a>Project by <a target="_blank" href="http://github.com/WTCU"><span9>WTCU</span9></a>. 
-    Powered by <a target="_blank" href="http://www.xiaomiqiu.cn/"><span9>Ngrok</span9></a>.
+    &nbsp;©&nbsp;2023&nbsp;<a target="_blank" href="https://wtcu.github.io">UTCU.</a>&nbsp;&nbsp;All rights reserved. 
+    Based on&nbsp;<a target="_blank" href="https://github.com/KOHGYLW/kiftd">Kiftd.</a>
+    &nbsp;Project by <a target="_blank" href="https://wtcu.github.io">UTCU.</a>
   </p>
   </big>
 </div>
